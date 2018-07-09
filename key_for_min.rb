@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     puts "Hash is empty"
     return
   else
+    
     name_hash.each do |key, value|
       if first_time == 1 
         smallest_value = value
