@@ -9,13 +9,8 @@ def key_for_min_value(name_hash)
     puts "Hash is empty"
     return
   else
-    
+    smallest_key,smallest_value = name_hash.first
     name_hash.each do |key, value|
-      if first_time == 1 
-        smallest_value = value
-        smallest_key = key
-        first_time = 2
-      else
       puts "#{key} => #{value}"
       puts "Hash is not empty"
    end 
