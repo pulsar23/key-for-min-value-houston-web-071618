@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     puts "Hash is empty"
     return
   else
+    
     puts "Hash is not empty"
    end 
 
