@@ -10,8 +10,8 @@ def key_for_min_value(name_hash)
       if first_value == 1 
         smallest_value = value
         smallest_key = key
-        first_value = 2 
-      
+        first_value = 2
+      else
       puts "#{key} => #{value}"
       puts "Hash is not empty"
    end 
