@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == {} || name_hash == nil
     puts "Hash is empty"
+    return
   else
     puts "Hash is not empty"
    end 
