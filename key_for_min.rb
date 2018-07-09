@@ -13,7 +13,12 @@ def key_for_min_value(name_hash)
     name_hash.each do |key, value|
       puts "#{key} => #{value}"
       puts "Hash is not empty"
-   end 
+      if (value < smallest_value)
+        smallest_value = value
+        smallest_key = key
+      end # if 
+    end # do
+   end # if/else 
 
   name_hash 
 
