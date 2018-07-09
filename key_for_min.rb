@@ -20,7 +20,8 @@ def key_for_min_value(name_hash)
     end # do
    end # if/else 
 
-  name_hash 
+  #name_hash 
+  return smallest_key
 
 
 end
